@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mussarela">Mussarela</string>
+
+    <string-array name="Tamanhos_array">
+        <item>Brotinho</item>
+        <item>Média</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="Medio_array">
+        <item>8 pedaços</item>
+        <item>9 pedaços</item>
+        <item>10 pedaços</item>
+        <item>12 pedaços</item>
+    </string-array>
+    <string-array name="Grande_array">
+        <item>10 pedaços</item>
+        <item>12 pedaços</item>
+        <item>16 pedaços</item>
+    </string-array>
+    <string-array name="Brotinho_array">
+        <item>4 pedaços</item>
+    </string-array>
+    <string-array name="default_array">
+        <item>Pedaços</item>
+    </string-array>
+    <string-array name="Borda_array">
+        <item>Normal</item>
+        <item>Catupiry</item>
+        <item>Cheddar</item>
+    </string-array>
+
+    <string name="title_activity_conexao_ruim">ConexaoRuim</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_pizzas_favoritas">PizzasFavoritas</string>
+    <string name="title_activity_custom_sabores">CustomSabores</string>
+    <string name="title_activity_configurar__pedido">Configurar_Pedido</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

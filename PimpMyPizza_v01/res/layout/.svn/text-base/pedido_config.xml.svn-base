@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvSabor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="2o Passo - Customize a Pizza:"
+        android:textSize="20sp"  />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        android:onClick="SendData"
+        android:text="          Adicionar ao Carrinho"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <!--
+    Button
+        android:id="@+id/btnSabor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblSabor"
+        android:layout_marginLeft="5dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSabor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor1"
+        android:layout_marginLeft="5dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSabor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="18dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSabor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor3"
+        android:layout_marginLeft="5dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnCustomPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor4"
+        android:layout_marginLeft="5dp"
+        android:onClick="CustomPizza"
+        android:text="Retirar Ingrediente" />
+
+    <Button
+        android:id="@+id/btnAddExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCustomPizza"
+        android:layout_marginLeft="5dp"
+        android:onClick="AddExtra"
+        android:text="Adicionar Ingrediente" /
+    -->
+
+    <Button
+        android:id="@+id/btnTamanhos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvSabor"
+        android:layout_centerHorizontal="true"
+        android:onClick="SetTamanho"
+        android:text="Tamanho" />
+
+    <Button
+        android:id="@+id/btnPedacos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTamanhos"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="SetPedacos"
+        android:text="Pedacos" />
+
+    <Button
+        android:id="@+id/btnBorda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPedacos"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="SetBorda"
+        android:text="Borda" />
+
+    <TextView
+        android:id="@+id/lblQtd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBorda"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Quantidade: "
+        android:textSize="20dp" />
+
+    <NumberPicker
+        android:id="@+id/npQtd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblQtd" />
+
+</RelativeLayout>

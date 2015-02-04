@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beta.pimpmypizza_beta"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="your tests label"
+        android:targetPackage="com.beta.pimpmypizza_beta" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pimp_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="lugares.Lugares"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pedidos.Carrinho"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Favoritos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pedidos.ConfigurarPedido"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="pmp"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConexaoRuim"
+            android:label="@string/title_activity_conexao_ruim"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Perfil"
+            android:label="@string/title_activity_perfil"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PizzasFavoritas"
+            android:label="@string/title_activity_pizzas_favoritas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pedidos.CustomSabores"
+             android:screenOrientation="portrait" 
+            android:label="@string/title_activity_custom_sabores" >
+        </activity>
+    </application>
+
+</manifest>

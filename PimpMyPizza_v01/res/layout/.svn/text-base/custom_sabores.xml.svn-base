@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/btnSabor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCustomSabores"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSabor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSabor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSabor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:onClick="btnAdicionarSaborClicked"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnCustomPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSabor4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:onClick="CustomPizza"
+        android:text="Retirar Ingrediente" />
+
+    <Button
+        android:id="@+id/btnAddExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCustomPizza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:onClick="AddExtra"
+        android:text="Adicionar Ingrediente" />
+
+    <TextView
+        android:id="@+id/txtCustomSabores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="1o Passo - Customize sabores:"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtCustomSabores"
+        android:layout_below="@+id/btnAddExtra"
+        android:layout_marginTop="7dp"
+        android:onClick="btnProximoClicked"
+        android:text="Proximo Passo" />
+
+</RelativeLayout>
